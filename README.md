@@ -2,6 +2,8 @@
 
 **A perl script to parse network logs (tcpdump...) looking for any info for each domain name and IP (company, location etc)**
 
+**COMING SOON : troubleshooting DNS engine to check legitimity of each DNS request.**
+
 A perl script to use with any network log recording file, which gonna parse it and grab all domain names and IP.
 
 Next step, the script will look for any informations about theses IP and domain names avoiding garbage datas (private IP etc...) : company name, location, root DNS,
@@ -59,6 +61,5 @@ In verbose mode, the script creates a special record file named verboselog which
 
 But, with --quiet-verbose|-qv option, you can redirect the output to stdout, without any file created.
 
-**Coming soon : troubleshooting DNS engine to check legitimity of each DNS request.**
 
 
