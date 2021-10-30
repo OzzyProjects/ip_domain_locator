@@ -34,7 +34,7 @@ install Text::CSV
     
 =cut
 
-
+use strict;
 use warnings;
 require v5.24.1;
 
