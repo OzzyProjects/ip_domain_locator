@@ -22,6 +22,8 @@ Logical operators accepted are : || (or), && (and), ! (not) and parenthesis, fol
   
 **there is only one rule : minimum one space between each token** or the parser will fail to treat expression.
 
+**Above one token or more, the logical expression has to be a single quotes string**
+
 +[Here is a non-exhaustive list of options that might be used to make your research more accurate :]
 
 --filter|-s [expression]  : filter based on complex logical expression to target only some domain names
@@ -38,7 +40,7 @@ Logical operators accepted are : || (or), && (and), ! (not) and parenthesis, fol
 
 **the --file|-f [file input] [file output] option is the only one required**
 
-The file input is the file to work on and the file output is the name of CSV filename that will be create by the script to record all infos.
+The file input is the file to work on and the file output is the name of CSV filename that will be created by the script to record all infos.
 
 Example of some command lines :
 
@@ -47,6 +49,10 @@ Example of some command lines :
 With these options, the script will target only filter based domain names and querry types, keeping only the root part of domain names (-n) and will display infos 
 
 such as company name, city, country, authoritative DNS, contact.
+
+`perl ip_domain_locator.pl -f tcpdumplog output.csv -c 50`
+
+The script here will target all domain names but will stop after 50 requests.
 
 In verbose mode, the script creates a special record file named verboselog which hold all these infos.
 
