@@ -1,4 +1,5 @@
-# ip_domain_locator
+# IP DOMAIN LOCATOR
+
 **A perl script to parse network logs (tcpdump...) looking for any info for each domain name and IP (company, location etc)**
 
 A perl script to use with any network log recording file, which gonna parse it and grab all domain names and IP.
