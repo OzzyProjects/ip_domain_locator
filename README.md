@@ -25,9 +25,9 @@ Logical operators accepted are : || (or), && (and), ! (not) and parenthesis, fol
   
 **there is only one rule : minimum one space between each token** or the parser will fail to treat expression.
 
-**Above one token or more, the logical expression has to be a single quotes string**
+**Above one token or more, the logical expression has to be a single quoted string**
 
-+[Here is a non-exhaustive list of options that might be used to make your research more accurate :]
+<ins>Here is a non-exhaustive list of options that might be used to make your research more accurate :</ins>
 
 --filter|-s [expression]  : filter based on complex logical expression to target only some domain names
 
